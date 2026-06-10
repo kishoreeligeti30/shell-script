@@ -1,5 +1,5 @@
 #!/bin/bash
 
-MOVIES=$("Pushpa" "RRR" "Devara")  
+MOVIES=("Pushpa" "RRR" "Devara")  
 
 echo "${MOVIES[@]}"
