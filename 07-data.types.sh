@@ -2,4 +2,4 @@
 
 MOVIES=$("Pushpa" "RRR" "Devara")  
 
-echo "$(MOVIES"@")
+echo "${MOVIES"@"}
