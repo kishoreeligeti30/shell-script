@@ -7,7 +7,7 @@ then
     echo "ERROR You must have sudo sudo access to execute this command"
 fi
 
-dnf -y install mysql
+dnf -y install git
 
 if [ $? -ne 0 ]
 then
@@ -17,3 +17,5 @@ then
 else
     echo "Installing Mysql...SUCESS"
     fi
+else
+    echo "Mysql Installed"
