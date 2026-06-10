@@ -12,4 +12,3 @@ else
 
 echo "Given number is less than or equal to 100"
 
-fi
